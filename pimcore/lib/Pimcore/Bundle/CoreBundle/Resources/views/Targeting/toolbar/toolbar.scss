@@ -16,7 +16,6 @@ $triggerWidth: 36px;
     border-bottom-left-radius: 4px;
     font: 12px Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #fff;
-    transition: 0.3s ease-in-out;
 
     &._ptg-toolbar--hidden {
         right: $triggerWidth - $width;
@@ -105,8 +104,6 @@ $triggerWidth: 36px;
         }
 
         tr {
-            transition: 0.3s ease-in-out;
-
             &._ptg-toolbar__table__row-details--collapsed {
                 display: none;
             }
